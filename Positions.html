@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body class="size-full bg-gray-400">
+    <!-- basic of relative and absolute -->
+    <div class="bg-black relative size-96">
+        <div class="bg-pink-500 size-16 absolute"></div>
+        <div class="bg-red-700 size-16 absolute bottom-0"></div>
+        <div class="bg-blue-700 size-16 absolute bottom-0 right-0"></div>
+        <div class="bg-yellow-500 size-16 absolute right-0"></div>
+    </div>
+    <!-- fixed -->
+   <div class="box-by size-20 bg-red-900 fixed z-10 text-white text-center">Fixed</div>
+    <!-- Inset Property -->
+     <div class="bg-green-300 relative size-96">
+        <div class="bg-pink-600 inset-16 absolute"></div>
+        <div class="bg-purple-500 inset-16 absolute size-32"></div>
+     </div>
+</body>
+</html>
